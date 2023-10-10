@@ -1,0 +1,9 @@
+.navbar-space {
+    height: 92px;
+}
+
+@media (max-width: 1023px){
+    .navbar-space {
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+.card-container,
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    gap: 5px;
+}
+.card-title {
+    color: var(--text-dark, #2F2F2F);
+
+    /* popppins semibold 24 */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 83.333% */
+    letter-spacing: 0.2px;
+}
+
+.card-description {
+    color: var(--text-medium, #565656);
+
+    /* Poppins regular 20 */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px; /* 92.857% */
+    letter-spacing: 0.2px;
+}
+
+@media (max-width: 1023px){
+    .card-title{
+        font-size: 20px;
+    }
+}

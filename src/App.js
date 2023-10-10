@@ -1,24 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import HomePage from './pages/HomePage/HomePage';
+import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
+import ContactUsPage from './pages/ContactUsPage/ContactUsPage';
+import FAQPage from './pages/FAQPage/FAQPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [screenSize, setScreenSize] = useState(0);
+
+  useEffect(() => {
+    const handleResize = () => setScreenSize(window.innerWidth);
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={<HomePage screenSize={screenSize} />}
+        />
+
+        <Route
+          path="/about-us"
+          element={<AboutUsPage />}
+        />
+
+        <Route
+          path="/contact-us"
+          element={<ContactUsPage />}
+        />
+
+        <Route
+          path="/faq"
+          element={<FAQPage />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

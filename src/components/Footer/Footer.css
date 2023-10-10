@@ -1,0 +1,303 @@
+.quick-links {
+    position: relative;
+    line-height: 130%;
+    font-weight: 500;
+    width: 100%;
+}
+.mentorship-placement-parent,
+.quick-links-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.mentorship-placement-parent {
+    gap: 8px;
+    font-size: 16px;
+}
+.quick-links-parent {
+    position: relative;
+    width: 200px;
+    gap: 16px;
+}
+.job-insurance {
+    position: relative;
+    line-height: 120%;
+}
+.more-by-rework-parent {
+    position: relative;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.line1 {
+    position: relative;
+    border-top: 1px solid #BBBBBD;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1px;
+    margin: auto;
+    margin: 8px 0px;
+}
+.c,
+.frame-inner {
+    position: relative;
+}
+.c {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+}
+.frame-inner {
+    border-radius: 50%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    background: transparent;
+}
+.c-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 12px;
+    height: 12px;
+}
+.talentfinder1 {
+    position: relative;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    color: #4B4B4B;
+}
+.enter-email-wrapper,
+.frame-parent4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.frame-parent4 {
+    position: relative;
+    gap: 6px;
+    text-align: center;
+    font-size: 12px;
+}
+.enter-email-wrapper {
+    border-radius: 4px 0 0 4px;
+    background-color: white;
+    width: 163px;
+    box-sizing: border-box;
+    align-items: center;
+    color: #BBBBBD;
+    border: 1px solid #BBBBBD;
+}
+.free-send-mail-icon-2574-thumb {
+    position: relative;
+    width: 26px;
+    height: 20px;
+    object-fit: cover;
+}
+.free-send-mail-icon-2574-thumb-parent,
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe {
+    position: relative;
+    line-height: 120%;
+    width: 110px;
+    flex-shrink: 0;
+    margin-left: -10px;
+}
+.free-send-mail-icon-2574-thumb-parent {
+    border-radius: 0 4px 4px 0;
+    background-color: #EBDA42;
+    width: 142px;
+    height: 39px;
+    flex-direction: row;
+    padding: 10px 0 10px 10px;
+    box-sizing: border-box;
+    /* color: var(--color-gray-100); */
+    font-size: 16px;
+    cursor: pointer;
+}
+.frame-parent5 {
+    border-radius: 0 0 4px 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    /* font-size: 16px; */
+    /* color: var(--color-darkgray); */
+}
+.rectangle-div {
+    position: relative;
+    box-sizing: border-box;
+    width: 17.33px;
+    height: 16px;
+    cursor: pointer;
+}
+.i-agree-to {
+    position: relative;
+    line-height: 120%;
+    display: inline-block;
+    width: 276px;
+    flex-shrink: 0;
+    font-size: 12px;
+}
+.rectangle-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 12px;
+}
+.join-our-mailing-list-parent {
+    position: relative;
+    width: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    object-fit: contain;
+    gap: 16px;
+}
+.finder1 {
+    color: white;
+}
+.talentfinder2 {
+    position: relative;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: var(--blue);
+}
+.frame-child1,
+.frame-child2 {
+    position: relative;
+    height: 40px;
+}
+.frame-child1 {
+    border-radius: 0 5.71px 0 0;
+    background-color: white;
+    width: 96.75px;
+}
+.frame-child2 {
+    border-radius: 5.71px;
+    border: 1.4px solid white;
+    box-sizing: border-box;
+    width: 117.75px;
+}
+.rework {
+    position: relative;
+    font-size: 35.5px;
+    color: white;
+    /* font-family: var(--font-outfit); */
+}
+.rectangle-group {
+    position: relative;
+    width: 139.25px;
+    height: 40px;
+    font-size: 11.43px;
+    color: #5c27c0;
+    /* font-family: var(--font-gilroy-regular); */
+}
+.social-icons {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.social-icons-parent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.footer-dark {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 20px;
+    /* font-family: Poppins; */
+}
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin: 60px 0px;
+}
+.talentfinder-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lowerFooter {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+}
+.enter-email {
+    border: none;
+    box-sizing: border-box;
+    padding: 11px 0px;
+    cursor: auto;
+}
+::placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+input[type=text] {
+    width: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.mobile-upper-footer {
+    padding-top: 40px;
+}
+
+@media (max-width: 700px) {
+    .social-icons {
+    width: 15px;
+    height: 15px;
+    }
+    .frame-parent4{
+    margin-top: 15px;;
+    }
+    .talentfinder-row {
+    justify-content: center;
+    }
+}
+
+@media (max-width: 750px){
+    #join {
+    text-align: center;
+    }
+    .quick-links-parent{
+    width: 112px;
+    }
+}
