@@ -15,7 +15,7 @@ const HomePage = ({ screenSize }) => {
       
       <WhatsCovered screenSize={screenSize} />
       <WhatsNotCovered screenSize={screenSize} />
-      <StartSteps />
+      <StartSteps screenSize={screenSize} />
 
       <Footer screenSize={screenSize}/>
     </>

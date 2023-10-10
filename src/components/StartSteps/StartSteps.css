@@ -36,4 +36,11 @@
     justify-content: center;
     flex-direction: row;
     gap: 64px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1023px){
+    .StartSteps-cards{
+        gap: 29px;
+    }
 }
