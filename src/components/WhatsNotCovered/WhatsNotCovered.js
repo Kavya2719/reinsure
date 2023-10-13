@@ -20,10 +20,10 @@ const WhatsNotCovered = ({ screenSize }) => {
         <Card
           width={"200px"}
           image={TheftImg}
-          gapBetweenImageAndCard={screenSize > 1024 ? "20px" : "10px"}
-          gapBetweenTitleAndDescription={screenSize > 1024 ? "20px" : "10px"}
-          imageHeight={screenSize > 1024 ? "100px" : "67px"}
-          imageWidth={screenSize > 1024 ? "100px" : "67px"}
+          gapBetweenImageAndCard={screenSize > 1022 ? "20px" : "10px"}
+          gapBetweenTitleAndDescription={screenSize > 1022 ? "20px" : "10px"}
+          imageHeight={screenSize > 1022 ? "100px" : "67px"}
+          imageWidth={screenSize > 1022 ? "100px" : "67px"}
           title={"Theft"}
           description={
             "If you experience job loss because you’re stealing from your employer."
@@ -34,10 +34,10 @@ const WhatsNotCovered = ({ screenSize }) => {
         <Card
           width={"200px"}
           image={PerformanceIssuesImg}
-          gapBetweenImageAndCard={screenSize > 1024 ? "20px" : "10px"}
-          gapBetweenTitleAndDescription={screenSize > 1024 ? "20px" : "10px"}
-          imageHeight={screenSize > 1024 ? "100px" : "67px"}
-          imageWidth={screenSize > 1024 ? "100px" : "67px"}
+          gapBetweenImageAndCard={screenSize > 1022 ? "20px" : "10px"}
+          gapBetweenTitleAndDescription={screenSize > 1022 ? "20px" : "10px"}
+          imageHeight={screenSize > 1022 ? "100px" : "67px"}
+          imageWidth={screenSize > 1022 ? "100px" : "67px"}
           title={"Performance issues"}
           description={
             "If your employer has laid you off because of poor performance issues."
@@ -48,10 +48,10 @@ const WhatsNotCovered = ({ screenSize }) => {
         <Card
           width={"200px"}
           image={FraudImg}
-          gapBetweenImageAndCard={screenSize > 1024 ? "20px" : "10px"}
-          gapBetweenTitleAndDescription={screenSize > 1024 ? "20px" : "10px"}
-          imageHeight={screenSize > 1024 ? "100px" : "67px"}
-          imageWidth={screenSize > 1024 ? "100px" : "67px"}
+          gapBetweenImageAndCard={screenSize > 1022 ? "20px" : "10px"}
+          gapBetweenTitleAndDescription={screenSize > 1022 ? "20px" : "10px"}
+          imageHeight={screenSize > 1022 ? "100px" : "67px"}
+          imageWidth={screenSize > 1022 ? "100px" : "67px"}
           title={"Fraud"}
           description={
             "If your employer terminates you because you’ve committed fraud."
@@ -62,10 +62,10 @@ const WhatsNotCovered = ({ screenSize }) => {
         <Card
           width={"200px"}
           image={HarassmentImg}
-          gapBetweenImageAndCard={screenSize > 1024 ? "20px" : "10px"}
-          gapBetweenTitleAndDescription={screenSize > 1024 ? "20px" : "10px"}
-          imageHeight={screenSize > 1024 ? "100px" : "67px"}
-          imageWidth={screenSize > 1024 ? "100px" : "67px"}
+          gapBetweenImageAndCard={screenSize > 1022 ? "20px" : "10px"}
+          gapBetweenTitleAndDescription={screenSize > 1022 ? "20px" : "10px"}
+          imageHeight={screenSize > 1022 ? "100px" : "67px"}
+          imageWidth={screenSize > 1022 ? "100px" : "67px"}
           title={"Harassment"}
           description={
             "If you’ve been terminated due to proven harassment or employer's code of conduct."

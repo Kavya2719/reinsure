@@ -8,26 +8,23 @@ import ThreeImg from "../../assests/images/three.png";
 import OneImgSm from "../../assests/images/one-sm.png";
 import TwoImgSm from "../../assests/images/two-sm.png";
 import ThreeImgSm from "../../assests/images/three-sm.png";
+import StartStepsSvg from "../../assests/images/StartStepsSvg.svg";
 
 const StartSteps = ({ screenSize }) => {
   return (
     <div className="py-20 w-full flex items-center flex-col gap-[50px] lg:py-[50px] lg:gap-[40px]">
-      <div className="flex items-center justify-center flex-wrap text-dark-blue text-[56px] font-medium tracking-[-1.68px] font-scandia lg:text-[30px]">
-        <span>Simple steps to&nbsp;</span>
-        <img src={StartImg} className="w-[130px] mt-[3px] mr-[3px] lg:w-[71px] lg:mt-[1px] lg:mr-[1px]" alt="start" />
-        <span>with</span>
-      </div>
+      <img src={StartStepsSvg} alt="What will you get?" className='text-center h-[62px] lg:h-[33px]'/>
 
       <div className="flex items-center justify-center flex-col gap-[40px]">
         <div className="flex items-center justify-center flex-row gap-16 flex-wrap lg:gap-[30px] sm:gap-7">
           <Card
             // width={"321px"}
             width={"270px"}
-            image={screenSize > 1024? OneImg: OneImgSm}
-            gapBetweenImageAndCard={screenSize > 1024 ? "24px" : "16px"}
-            gapBetweenTitleAndDescription={screenSize > 1024 ? "16px" : "0px"}
-            imageWidth={screenSize > 1024 ? "80px" : "46px"}
-            imageHeight={screenSize > 1024 ? "80px" : "56px"}
+            image={screenSize > 1022? OneImg: OneImgSm}
+            gapBetweenImageAndCard={screenSize > 1022 ? "24px" : "16px"}
+            gapBetweenTitleAndDescription={screenSize > 1022 ? "16px" : "0px"}
+            imageWidth={screenSize > 1022 ? "80px" : "46px"}
+            imageHeight={screenSize > 1022 ? "80px" : "56px"}
             title={"Fill in Your Details"}
             description={
               "Fill in your personal and employment details to get your quo"
@@ -40,11 +37,11 @@ const StartSteps = ({ screenSize }) => {
         <Card
             // width={"321px"}
             width={"270px"}
-            image={screenSize > 1024? TwoImg: TwoImgSm}
-            gapBetweenImageAndCard={screenSize > 1024 ? "24px" : "16px"}
-            gapBetweenTitleAndDescription={screenSize > 1024 ? "16px" : "0px"}
-            imageWidth={screenSize > 1024 ? "80px" : "46px"}
-            imageHeight={screenSize > 1024 ? "80px" : "56px"}
+            image={screenSize > 1022? TwoImg: TwoImgSm}
+            gapBetweenImageAndCard={screenSize > 1022 ? "24px" : "16px"}
+            gapBetweenTitleAndDescription={screenSize > 1022 ? "16px" : "0px"}
+            imageWidth={screenSize > 1022 ? "80px" : "46px"}
+            imageHeight={screenSize > 1022 ? "80px" : "56px"}
             title={"Compare Plans"}
             description={
               "Compare and choose the plan suitable for you."
@@ -58,10 +55,10 @@ const StartSteps = ({ screenSize }) => {
             // width={"321px"}
             width={"270px"}
             image={screenSize > 0 ? ThreeImg: ThreeImgSm}
-            gapBetweenImageAndCard={screenSize > 1024 ? "24px" : "16px"}
-            gapBetweenTitleAndDescription={screenSize > 1024 ? "16px" : "0px"}
-            imageWidth={screenSize > 1024 ? "80px" : "46px"}
-            imageHeight={screenSize > 1024 ? "80px" : "56px"}
+            gapBetweenImageAndCard={screenSize > 1022 ? "24px" : "16px"}
+            gapBetweenTitleAndDescription={screenSize > 1022 ? "16px" : "0px"}
+            imageWidth={screenSize > 1022 ? "80px" : "46px"}
+            imageHeight={screenSize > 1022 ? "80px" : "56px"}
             title={"Compare Plans"}
             description={
               "Pay & immediately get your plan document."
