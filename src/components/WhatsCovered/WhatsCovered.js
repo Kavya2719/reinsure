@@ -1,6 +1,4 @@
 import React from "react";
-import "./WhatsCovered.css";
-
 import Card from "../Card/Card";
 import BankRuptyImg from "../../assests/images/bankrupty.png";
 import maImg from "../../assests/images/ma.png";
@@ -15,10 +13,10 @@ import RestructuringImgsm from "../../assests/images/restructuring-sm.png";
 
 const WhatsCovered = ({ screenSize }) => {
   return (
-    <div className="WhatsCovered-container">
-      <span className="WhatsCovered-title">{"What’s Covered?"}</span>
+    <div className="py-20 px-[60px] flex flex-col justify-center items-center gap-[52px] lg:gap-[30px] lg:px-0 lg:py-[50px]">
+      <span className="text-dark-blue font-scandia text-[56px] font-medium tracking-[-1.68px] leading-[110%] lg:text-[30px] lg:tracking-[-0.9px]">{"What’s Covered?"}</span>
 
-      <div className="WhatsCovered-cards">
+      <div className="gap-[40px] flex flex-wrap justify-center lg:gap-[10px] lg:text-center">
         <Card
           width={screenSize >= 1024? "415px": "350px"}
           image={screenSize > 1024? BankRuptyImg: BankRuptyImgsm}

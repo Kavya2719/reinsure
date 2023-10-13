@@ -1,6 +1,4 @@
 import React from 'react'
-import './HomePage.css'
-
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import WhatsCovered from '../../components/WhatsCovered/WhatsCovered'
@@ -11,7 +9,7 @@ const HomePage = ({ screenSize }) => {
   return (
     <>
       <Navbar />
-      <div className='navbar-space' />
+      <div className='h-[92px] w-full lg:hidden' />
       
       <WhatsCovered screenSize={screenSize} />
       <WhatsNotCovered screenSize={screenSize} />

@@ -1,5 +1,4 @@
 import React from "react";
-import "./Card.css";
 
 const Card = ({
   width,
@@ -14,11 +13,12 @@ const Card = ({
   flexDirection,
   textAlign,
   color,
-  margin
+  margin,
+  imageMargin
 }) => {
   return (
     <div
-      className="card-container"
+      className="flex flex-col"
       style={{
         width,
         gap: gapBetweenImageAndCard,
@@ -31,13 +31,14 @@ const Card = ({
         src={image}
         width={imageWidth}
         height={imageHeight}
-        style={{ margin: "0px auto" }}
+        className="mx-auto"
+        style={{ margin: imageMargin }}
         alt="img"
       />
 
-      <div className="card" style={{ gap: gapBetweenTitleAndDescription, margin }}>
-        <div className="card-title" style={{ color }} >{title}</div>
-        <div className="card-description" style={{ color }}>{description}</div>
+      <div className="flex flex-col gap-[6.25px]" style={{ gap: gapBetweenTitleAndDescription, margin }}>
+        <div className="text-gray text-2xl font-semibold leading-5 tracking-[0.2px] lg:text-xl" style={{ color }} >{title}</div>
+        <div className="text-light-gray text-sm font-normal leading-[13px] tracking-[0.2px]" style={{ color }}>{description}</div>
       </div>
     </div>
   );

@@ -21,8 +21,10 @@ button {
     font-size: 16px;
     text-align: center;
     cursor: pointer;
-    border: none;
     background-color: white;
+}
+input[type=text] {
+    font-size: 16px;
 }
 
 :root {
@@ -33,3 +35,6 @@ button {
     --font-scandia: Scandia-Medium;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
