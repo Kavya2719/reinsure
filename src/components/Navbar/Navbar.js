@@ -19,7 +19,7 @@ const Navbar = () => {
           <button className='py-[9.33px] w-auto px-[13.33px] text-blue border-[1.33px] border-blue bg-white'>Sign In</button>
         </div>
 
-        <GetQuote />
+        <GetQuote buttonSize="small"/>
       </div>
     </div>
   )

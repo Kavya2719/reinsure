@@ -1,7 +1,7 @@
 import React from "react";
 import GetQuote from "../GetQuote/GetQuote";
 
-const End = () => {
+const End = ({ screenSize }) => {
   return (
     <div className="py-20 flex flex-col gap-11 lg:gap-[30px] items-center justify-center lg:pt-[40px] lg:pb-[30px]">
       <div className="flex flex-col lg:gap-[15px]">
@@ -13,7 +13,7 @@ const End = () => {
         </span>
       </div>
 
-      <GetQuote />
+      <GetQuote buttonSize={screenSize > 1022? "large": "small"}/>
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import React from "react";
-import StartImg from "../../assests/images/start.png";
 import GetQuote from "../GetQuote/GetQuote";
 import Card from "../Card/Card";
 import OneImg from "../../assests/images/one.png";
@@ -13,7 +12,7 @@ import StartStepsSvg from "../../assests/images/StartStepsSvg.svg";
 const StartSteps = ({ screenSize }) => {
   return (
     <div className="py-20 w-full flex items-center flex-col gap-[50px] lg:py-[50px] lg:gap-[40px]">
-      <img src={StartStepsSvg} alt="What will you get?" className='text-center h-[62px] lg:h-[33px]'/>
+      <img src={StartStepsSvg} alt="What will you get?" className='text-center h-[72px] lg:h-[38px]'/>
 
       <div className="flex items-center justify-center flex-col gap-[40px]">
         <div className="flex items-center justify-center flex-row gap-16 flex-wrap lg:gap-[30px] sm:gap-7">
@@ -69,7 +68,7 @@ const StartSteps = ({ screenSize }) => {
           />
         </div>
 
-        <GetQuote />
+        <GetQuote buttonSize={screenSize > 1022? "large": "small"}/>
       </div>
     </div>
   );
