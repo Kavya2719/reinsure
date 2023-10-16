@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import { useState, useRef } from "react"
 
 const FAQ = ({ question, answer }) => {
   const [showAnswer, setShowAnswer] = useState(false)
+  const answerRef = useRef();
 
-  const handleClick = (e) => {
-    e.target.innerText = (e.target.innerText === "+"? "-": "+")
-
+  const handleClick = () => {
+    answerRef.current.style.maxHeight = showAnswer ? "0" : `${answerRef.current.scrollHeight}px`
     setShowAnswer(!showAnswer)
   }
 
@@ -20,11 +20,11 @@ const FAQ = ({ question, answer }) => {
           className="text-white bg-blue rounded-full py-1 px-[10px] text-base font-semibold tracking-[0.2px]"
           onClick={handleClick}
         >
-          +
+          {showAnswer ? "-" : "+"}
         </button>
       </div>
 
-      <span className={`text-left text-light-gray text-xl tracking-[0.2px] ${showAnswer? "": "hidden"} lg:text-base`}>
+      <span ref={answerRef} className={`text-left transition-all duration-500 overflow-hidden max-h-0 text-light-gray text-xl tracking-[0.2px] lg:text-base`}>
         {answer}
       </span>
     </div>
