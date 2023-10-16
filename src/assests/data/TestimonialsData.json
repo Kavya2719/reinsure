@@ -7,13 +7,6 @@
     "rating": 5
   },
   {
-    "name": "Mahesh Chaudhry 1",
-    "role": "Graphic Designer",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-    "image": "/TestimonialsImages/TestimonialsImage1.png",
-    "rating": 5
-  },
-  {
     "name": "Mahesh Chaudhry 2",
     "role": "Graphic Designer",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
@@ -22,6 +15,13 @@
   },
   {
     "name": "Mahesh Chaudhry 3",
+    "role": "Graphic Designer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+    "image": "/TestimonialsImages/TestimonialsImage1.png",
+    "rating": 5
+  },
+  {
+    "name": "Mahesh Chaudhry 4",
     "role": "Graphic Designer",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
     "image": "/TestimonialsImages/TestimonialsImage1.png",

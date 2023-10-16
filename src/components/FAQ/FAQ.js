@@ -12,7 +12,7 @@ const FAQ = ({ question, answer }) => {
   return (
     <div className={`w-[75%] p-[21px] flex flex-col gap-3 lg:p-[10px] sm:w-[95%] ${showAnswer? "bg-light-purple": "bg-white"}`}>
       <div className="flex flex-row justify-between items-center">
-        <span className="text-xl font-semibold tracking-[0.2px] text-left">
+        <span className="text-xl font-semibold tracking-[0.2px] text-left lg:text-base">
           {question}
         </span>
 
@@ -24,7 +24,7 @@ const FAQ = ({ question, answer }) => {
         </button>
       </div>
 
-      <span className={`text-left text-light-gray text-xl tracking-[0.2px] ${showAnswer? "": "hidden"}`}>
+      <span className={`text-left text-light-gray text-xl tracking-[0.2px] ${showAnswer? "": "hidden"} lg:text-base`}>
         {answer}
       </span>
     </div>
