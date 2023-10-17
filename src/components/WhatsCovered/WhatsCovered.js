@@ -4,9 +4,9 @@ import WhatsCoveredData from '../../assets/data/WhatsCoveredData.json'
 const WhatsCovered = ({ screenSize }) => {
   return (
     <div className="py-20 px-[60px] flex flex-col justify-center items-center gap-[52px] lg:gap-[30px] lg:px-0 lg:py-[40px]">
-      <span className="text-dark-blue font-scandia text-[56px] font-medium tracking-[-1.68px] leading-[110%] lg:text-[30px] lg:tracking-[-0.9px]">
+      <h1 className="text-dark-blue font-scandia text-[56px] font-medium tracking-[-1.68px] leading-[110%] lg:text-[30px] lg:tracking-[-0.9px]">
         {"What’s Covered?"}
-      </span>
+      </h1>
 
       <div className="gap-[40px] flex flex-wrap justify-center lg:gap-[10px] lg:text-center">
         {

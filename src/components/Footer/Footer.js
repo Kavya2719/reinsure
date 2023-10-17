@@ -10,7 +10,7 @@ import "./Footer.css";
 
 const Footer = ({ screenSize }) => {
   return (
-    <div className="footer-dark">
+    <div className="footer-dark bg-white">
       {
         (screenSize < 700) && 
         <div className="mobile-upper-footer">

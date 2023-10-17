@@ -72,9 +72,9 @@ const Layoffs = ({ screenSize }) => {
             className="h-[70px] lg:h-[35px] sm:mx-auto"
           />
 
-          <span className="text-[48px] font-scandia-regular leading-[150%] lg:text-xl text-gray">
+          <h1 className="text-[48px] font-scandia-regular leading-[150%] lg:text-xl text-gray">
             in the year 2022
-          </span>
+          </h1>
         </div>
 
         <div className="flex flex-col gap-[40px] lg:gap-6">

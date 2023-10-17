@@ -14,9 +14,9 @@ const SalaryOn = ({ screenSize }) => {
           <div className="flex flex-col gap-[60px] lg:gap-[25px]">
             <div className="flex flex-col gap-4">
               <div className="flex flex-col items-start lg:items-center lg:gap-1">
-                <span className="font-scandia text-[56px] tracking-[-1.68px] leading-[110%] font-medium text-dark-blue lg:tracking-[-0.9px] lg:text-[30px]">
+                <h1 className="font-scandia text-[56px] tracking-[-1.68px] leading-[110%] font-medium text-dark-blue lg:tracking-[-0.9px] lg:text-[30px]">
                   Job Gone?
-                </span>
+                </h1>
 
                 <img
                   src={SalaryStillOnImg}
@@ -33,7 +33,7 @@ const SalaryOn = ({ screenSize }) => {
 
             <div className="flex flex-row lg:items-center lg:justify-center">
               <input
-                className="bg-white w-[295px] px-6 py-[10px] text-xl placeholder:text-xl placeholder:font-light placeholder:text-light-gray-2 flex items-center lg:text-base lg:placeholder:text-base lg:px-3 sm:w-[220px]"
+                className="bg-white w-[295px] border-[0.8px] border-light-gray-2 px-6 py-[10px] text-xl placeholder:text-xl placeholder:font-light placeholder:text-light-gray-2 flex items-center lg:text-base lg:placeholder:text-base lg:px-3 sm:w-[225px]"
                 placeholder="Enter your monthy salary"
               />
 

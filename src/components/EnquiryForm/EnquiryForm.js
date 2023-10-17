@@ -6,8 +6,8 @@ import GetQuote from "../GetQuote/GetQuote";
 
 const EnquiryForm = ({ screenSize }) => {
   return (
-    <div className="flex flex-row flex-wrap justify-between items-center w-[80%] mx-auto">
-      <div className="flex flex-col gap-[40px] justify-center items-center w-[634px]">
+    <div className="flex flex-row flex-wrap py-10 justify-between items-center w-[80%] mx-auto xl:w-full xl:justify-center">
+      <div className="flex flex-col gap-[40px] justify-center items-center w-[634px] ">
         <span className="text-dark-blue font-scandia text-[32px] font-medium leading-[110%] tracking-[-0.96px]">
           Get Your Instant quote Now!
         </span>
@@ -44,7 +44,7 @@ const EnquiryForm = ({ screenSize }) => {
           <textarea
             type="text"
             className="p-4 placeholder:text-light-gray-2 leading-[120%]"
-            style={{ width: "464px", height: "180px" }}
+            style={{ width: "464px", height: "180px", resize: "none" }}
             placeholder="Message"
           />
         </div>

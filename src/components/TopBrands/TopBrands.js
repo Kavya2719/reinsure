@@ -3,7 +3,7 @@ import TopBrandsData from "../../assets/data/TopBrandsData.json";
 const TopBrands = () => {
   return (
     <div className="flex flex-col items-center">
-      <span className="absolute mt-[-8px] px-3 bg-light-white text-light-gray text-base leading-[120%] lg:text-[14px] z-[1]">
+      <span className="absolute mt-[-8px] px-3 bg-light-white text-light-gray text-base leading-[120%] lg:text-[14px] z-[1] lg:bg-white">
         Our clients work with top brands including
       </span>
 
