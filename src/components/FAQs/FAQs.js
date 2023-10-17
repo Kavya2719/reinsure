@@ -12,7 +12,7 @@ const FAQs = ({ screenSize }) => {
             {
                 FAQsData.map(({question, answer}, index) => {
                     return(
-                        <FAQ key={index} question={question} answer={answer}/>
+                        <FAQ key={index} question={question} answer={answer} index={index}/>
                     )
                 })
             }
