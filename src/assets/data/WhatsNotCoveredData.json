@@ -2,21 +2,21 @@
     {
         "title": "Theft",
         "description": "If you experience job loss because you’re stealing from your employer.",
-        "image": "/assets/WhatsNOtCoveredImages/theft.png"
+        "image": "/assets/WhatsNotCoveredImages/theft.png"
     },
     {
         "title": "Performance issues",
         "description": "If your employer has laid you off because of poor performance issues.",
-        "image": "/assets/WhatsNOtCoveredImages/performance-issues.png"
+        "image": "/assets/WhatsNotCoveredImages/performance-issues.png"
     },
     {
         "title": "Fraud",
         "description": "If your employer terminates you because you’ve committed fraud.",
-        "image": "/assets/WhatsNOtCoveredImages/fraud.png"
+        "image": "/assets/WhatsNotCoveredImages/fraud.png"
     },
     {
         "title": "Harassment",
         "description": "If you’ve been terminated due to proven harassment or employer's code of conduct.",
-        "image": "/assets/WhatsNOtCoveredImages/harassment.png"
+        "image": "/assets/WhatsNotCoveredImages/harassment.png"
     }
 ]

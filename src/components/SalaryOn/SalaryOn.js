@@ -33,7 +33,7 @@ const SalaryOn = ({ screenSize }) => {
 
             <div className="flex flex-row lg:items-center lg:justify-center">
               <input
-                className="bg-white px-6 py-[10px] text-xl placeholder:text-xl placeholder:font-light placeholder:text-light-gray-2 flex items-center lg:text-base lg:placeholder:text-base lg:px-3"
+                className="bg-white w-[295px] px-6 py-[10px] text-xl placeholder:text-xl placeholder:font-light placeholder:text-light-gray-2 flex items-center lg:text-base lg:placeholder:text-base lg:px-3 sm:w-[220px]"
                 placeholder="Enter your monthy salary"
               />
 
