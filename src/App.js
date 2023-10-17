@@ -33,7 +33,7 @@ function App() {
 
         <Route
           path="/contact-us"
-          element={<ContactUsPage />}
+          element={<ContactUsPage screenSize={screenSize} />}
         />
 
         <Route
