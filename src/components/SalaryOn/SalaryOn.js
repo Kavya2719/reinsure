@@ -65,8 +65,8 @@ const SalaryOn = ({ screenSize }) => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center w-[510px] xl:w-[415px] xl:gap-16 lg:gap-0 lg:w-[374px]">
-          <div className="flex flex-row justify-start mb-[-80px] ml-6 w-[510px] xl:mb-[0] xl:ml-4 xl:w-[415px] lg:mb-[-20px] lg:w-[374px]">
+        <div className="flex flex-col items-center justify-center w-[510px] xl:w-[415px] xl:gap-16 lg:gap-0 lg:w-[355px] sm:gap-[10px]">
+          <div className="flex flex-row justify-start mb-[-80px] ml-6 w-[510px] xl:mb-[0] xl:ml-4 xl:w-[415px] lg:mb-[-20px] lg:w-[355px] sm:mb-0">
             <img src={Man1Img} alt="Man1Img" className="xl:w-[120px]" />
 
             <div className="flex items-center ml-[-40px] mt-5 z-[1] xl:ml-[-20px]">
@@ -74,7 +74,7 @@ const SalaryOn = ({ screenSize }) => {
             </div>
           </div>
 
-          <div className="flex flex-row justify-end w-[510px] xl:w-[415px] lg:w-[374px]">
+          <div className="flex flex-row justify-end w-[510px] xl:w-[415px] lg:w-[355px]">
             <div className="flex items-center mr-[-40px] mt-5 z-[1] xl:mr-[-20px]">
               <ClaimCard role={"Software Developer"} amount={"9,00,000"} />
             </div>
@@ -82,7 +82,7 @@ const SalaryOn = ({ screenSize }) => {
             <img src={Girl1Img} alt="Girl1Img" className="xl:w-[120px]" />
           </div>
 
-          <div className="flex flex-row justify-start mt-[-80px] w-[510px] xl:mt-[0] xl:w-[415px] lg:mt-[-20px] lg:w-[374px]">
+          <div className="flex flex-row justify-start mt-[-80px] w-[510px] xl:mt-[0] xl:w-[415px] lg:mt-[-20px] lg:w-[355px] sm:mt-0">
             <img src={Girl2Img} alt="Girl2Img" className="xl:w-[120px]" />
 
             <div className="flex items-center z-[1] mt-5 ml-[-40px] xl:ml-[-20px]">
