@@ -1,16 +1,20 @@
+import { clear } from "@testing-library/user-event/dist/clear";
 import { useState, useRef } from "react"
 
 const FAQ = ({ question, answer }) => {
   const [showAnswer, setShowAnswer] = useState(false)
   const answerRef = useRef();
+  const faqRef = useRef();
 
   const handleClick = () => {
     answerRef.current.style.maxHeight = showAnswer ? "0" : `${answerRef.current.scrollHeight}px`
+    if(showAnswer) setTimeout(() => faqRef.current.style.gap = "0", 300)
+    else faqRef.current.style.gap = "12px"
     setShowAnswer(!showAnswer)
   }
 
   return (
-    <div className={`w-[75%] p-[21px] flex flex-col gap-3 lg:p-[10px] sm:w-[95%] ${showAnswer? "bg-light-purple": "bg-white"}`}>
+    <div ref={faqRef} className={`w-[75%] p-[21px] flex flex-col lg:p-[10px] sm:w-[95%] ${showAnswer? "bg-light-purple": "bg-white"}`}>
       <div className="flex flex-row justify-between items-center">
         <span className="text-xl font-semibold tracking-[0.2px] text-left lg:text-base">
           {question}

@@ -5,7 +5,7 @@ import GetQuote from '../GetQuote/GetQuote'
 
 const Navbar = () => {
   return (
-    <div className='top-0 fixed z-[1] py-6 px-[120px] flex flex-row items-center bg-light-white justify-between w-full lg:hidden'>
+    <div className='top-0 fixed z-[10000] py-6 px-[120px] flex flex-row items-center bg-light-white justify-between w-full lg:hidden'>
       <img src={ReinsureLogo} alt='Reinsure' style={{ marginTop: "-8px"}}/>
 
       <div className='flex flex-row items-center gap-[13.33px]'>

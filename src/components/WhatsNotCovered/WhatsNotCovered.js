@@ -1,13 +1,9 @@
 import React from "react";
 import Card from "../Card/Card";
 import TheftImg from "../../assests/images/theft.png";
-// import TheftImgSm from '../../assests/images/theft-sm.png';
 import PerformanceIssuesImg from "../../assests/images/performance-issues.png";
-// import PerformanceIssuesImgsm from '../../assests/images/performance-issues-sm.png';
 import FraudImg from "../../assests/images/fraud.png";
-// import FraudImgsm from '../../assests/images/fraud-sm.png';
 import HarassmentImg from "../../assests/images/harassment.png";
-// import HarassmentImgsm from '../../assests/images/harassment-sm.png';
 
 const WhatsNotCovered = ({ screenSize }) => {
   return (
@@ -18,7 +14,7 @@ const WhatsNotCovered = ({ screenSize }) => {
 
       <div className="flex-wrap flex flex-row gap-[70px] justify-center lg:gap-[30px]">
         <Card
-          width={"200px"}
+          width={"245px"}
           image={TheftImg}
           gapBetweenImageAndCard={screenSize > 1022 ? "20px" : "10px"}
           gapBetweenTitleAndDescription={screenSize > 1022 ? "20px" : "10px"}
@@ -32,7 +28,7 @@ const WhatsNotCovered = ({ screenSize }) => {
         />
 
         <Card
-          width={"200px"}
+          width={"245px"}
           image={PerformanceIssuesImg}
           gapBetweenImageAndCard={screenSize > 1022 ? "20px" : "10px"}
           gapBetweenTitleAndDescription={screenSize > 1022 ? "20px" : "10px"}
@@ -46,7 +42,7 @@ const WhatsNotCovered = ({ screenSize }) => {
         />
 
         <Card
-          width={"200px"}
+          width={"245px"}
           image={FraudImg}
           gapBetweenImageAndCard={screenSize > 1022 ? "20px" : "10px"}
           gapBetweenTitleAndDescription={screenSize > 1022 ? "20px" : "10px"}
@@ -60,7 +56,7 @@ const WhatsNotCovered = ({ screenSize }) => {
         />
 
         <Card
-          width={"200px"}
+          width={"245px"}
           image={HarassmentImg}
           gapBetweenImageAndCard={screenSize > 1022 ? "20px" : "10px"}
           gapBetweenTitleAndDescription={screenSize > 1022 ? "20px" : "10px"}

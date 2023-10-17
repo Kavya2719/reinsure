@@ -5,6 +5,7 @@ import SocialIcons from '../../assests/images/Social Icons.png'
 import SocialIcons1 from '../../assests/images/Social Icons 1.png'
 import SocialIcons2 from '../../assests/images/Social Icons 2.png'
 import SocialIcons3 from '../../assests/images/Social Icons 3.png'
+import { Tooltip } from "react-tooltip";
 import "./Footer.css";
 
 const Footer = ({ screenSize }) => {
@@ -82,10 +83,23 @@ const Footer = ({ screenSize }) => {
           }
 
           <div className="social-icons-parent">
-            <img className="social-icons" alt="" src={SocialIcons} />
-            <img className="social-icons" alt="" src={SocialIcons1} />
-            <img className="social-icons" alt="" src={SocialIcons2} />
-            <img className="social-icons" alt="" src={SocialIcons3} />
+            <Tooltip id="tooltip" />
+
+            <a data-tooltip-id="tooltip" data-tooltip-content="Facebook" href="#">
+              <img className="social-icons" alt="" src={SocialIcons} />
+            </a>
+
+            <a data-tooltip-id="tooltip" data-tooltip-content="Twitter" href="#">
+              <img className="social-icons" alt="" src={SocialIcons1} />
+            </a>
+
+            <a data-tooltip-id="tooltip" data-tooltip-content="Instagram" href="#">
+              <img className="social-icons" alt="" src={SocialIcons2} />
+            </a>
+
+            <a data-tooltip-id="tooltip" data-tooltip-content="LinkedIn" href="#">
+              <img className="social-icons" alt="" src={SocialIcons3} />
+            </a>
           </div>
         </div>
 
