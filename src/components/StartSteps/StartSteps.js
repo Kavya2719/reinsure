@@ -16,7 +16,6 @@ const StartSteps = ({ screenSize }) => {
       <div className="flex items-center justify-center flex-col gap-[40px]">
         <div className="flex items-center justify-center flex-row gap-16 flex-wrap lg:gap-[30px] sm:gap-7">
           <Card
-            // width={"321px"}
             width={"270px"}
             image={screenSize > 1022? OneImg: OneImgSm}
             gapBetweenImageAndCard={screenSize > 1022 ? "24px" : "16px"}
@@ -33,7 +32,6 @@ const StartSteps = ({ screenSize }) => {
           />
 
         <Card
-            // width={"321px"}
             width={"270px"}
             image={screenSize > 1022? TwoImg: TwoImgSm}
             gapBetweenImageAndCard={screenSize > 1022 ? "24px" : "16px"}
@@ -50,7 +48,6 @@ const StartSteps = ({ screenSize }) => {
           />
 
         <Card
-            // width={"321px"}
             width={"270px"}
             image={screenSize > 0 ? ThreeImg: ThreeImgSm}
             gapBetweenImageAndCard={screenSize > 1022 ? "24px" : "16px"}

@@ -71,13 +71,14 @@ const Layoffs = ({ screenSize }) => {
             alt="Layoffs"
             className="h-[70px] lg:h-[35px] sm:mx-auto"
           />
-          <span className="text-[48px] font-scandia-regular leading-[150%] lg:text-xl">
+
+          <span className="text-[48px] font-scandia-regular leading-[150%] lg:text-xl text-gray">
             in the year 2022
           </span>
         </div>
 
         <div className="flex flex-col gap-[40px] lg:gap-6">
-          <div className="text-2xl lg:text-base sm:hidden">
+          <div className="text-2xl lg:text-base sm:hidden text-light-gray">
             <p>Protect yourself and you family from layoffs with</p>
             <p>Reinsure income protection plans.</p>
           </div>
@@ -117,7 +118,7 @@ const Layoffs = ({ screenSize }) => {
       </div>
 
       <div className="flex-col gap-[30px] hidden sm:flex">
-          <div className="text-base">
+          <div className="text-base text-light-gray">
             <p>Protect yourself and you family from layoffs with</p>
             <p>Reinsure income protection plans.</p>
           </div>

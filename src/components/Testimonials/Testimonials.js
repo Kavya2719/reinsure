@@ -60,16 +60,19 @@ const Testimonials = ({ screenSize }) => {
             className={`h-1 ${current === 0 ? active : inactive}`}
             onClick={handleChange}
           />
+
           <button
             value="1"
             className={`h-1 ${current === 1 ? active : inactive}`}
             onClick={handleChange}
           />
+
           <button
             value="2"
             className={`h-1 ${current === 2? active : inactive}`}
             onClick={handleChange}
           />
+          
           <button
             value="3"
             className={`h-1 ${current === 3? active : inactive}`}

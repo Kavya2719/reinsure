@@ -25,7 +25,7 @@ const SalaryOn = ({ screenSize }) => {
                 />
               </div>
 
-              <div className="text-left text-2xl lg:text-center lg:hidden">
+              <div className="text-left text-2xl lg:text-center text-gray lg:hidden">
                 <p>Protect yourself and you family from layoffs with</p>
                 <p>Reinsure income protection plans.</p>
               </div>
