@@ -63,7 +63,7 @@ const Layoffs = ({ screenSize }) => {
   }, [currentNumber])
 
   return (
-    <div className="flex flex-row py-20 justify-center gap-[150px] flex-wrap text-left items-center xl:gap-[60px] lg:gap-[80px] lg:justify-center lg:py-[40px] md:gap-[35px] sm:gap-[40px] sm:text-center">
+    <div className="flex flex-row py-20 justify-center gap-[150px] text-left items-center xl:gap-[60px] lg:gap-[80px] lg:justify-center lg:py-[40px] md:gap-[35px] sm:gap-[30px] sm:text-center sm:flex-col">
       <div className="flex flex-col gap-4 lg:gap-[14px]">
         <div>
           <img
