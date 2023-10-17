@@ -1,6 +1,16 @@
-const FAQPage = () => {
+import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
+import EnquiryForm from '../../components/EnquiryForm/EnquiryForm'
+
+const FAQPage = ({ screenSize }) => {
   return (
-    <div>FAQPage</div>
+    <div>
+      <Navbar />
+      <div className='h-[92px] w-full lg:hidden' />
+
+      <EnquiryForm screenSize={screenSize} />
+      <Footer screenSize={screenSize} />
+    </div>
   )
 }
 

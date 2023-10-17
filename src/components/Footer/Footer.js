@@ -47,6 +47,7 @@ const Footer = ({ screenSize }) => {
 
         <div className="join-our-mailing-list-parent">
           <div className="quick-links" id="join">Join our mailing list</div>
+
           <div className="frame-parent5">
             <div className="enter-email-wrapper">
               <input name="email" type="text" className="enter-email text-black" placeholder="Enter Email" autoComplete="on"/>
@@ -58,13 +59,14 @@ const Footer = ({ screenSize }) => {
                 alt=""
                 src={Mail}
               />
-              <div className="subscribe">Subscribe</div>
+
+              <button className="subscribe">Subscribe</button>
             </div>
           </div>
 
           <div className="rectangle-parent">
-            <input type="checkbox" className="rectangle-div" name="checkbox"/>
-            <div className="i-agree-to">{`I agree to receive emails  from TalentFinder as per their Data & Privacy Policy.`}</div>
+            <input type="checkbox" id="checkbox" className="rectangle-div" name="checkbox"/>
+            <label className="i-agree-to cursor-pointer" htmlFor="checkbox" >{`I agree to receive emails  from TalentFinder as per their Data & Privacy Policy.`}</label>
           </div>
         </div>
       </div>
