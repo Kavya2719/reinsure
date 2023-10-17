@@ -1,5 +1,4 @@
-import React from 'react'
-import ReinsureLogo from '../../assests/images/Reinsure.png'
+import ReinsureLogo from '../../assets/images/Reinsure.png'
 import { Link } from 'react-router-dom'
 import GetQuote from '../GetQuote/GetQuote'
 

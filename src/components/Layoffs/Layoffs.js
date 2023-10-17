@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import LayoffsImg from "../../assests/images/layoffs.png";
-import AmazonLogo from "../../assests/images/AmazonLogo.png";
-import MetaLogo from "../../assests/images/MetaLogo.png";
+import LayoffsImg from "../../assets/images/layoffs.png";
+import AmazonLogo from "../../assets/images/AmazonLogo.png";
+import MetaLogo from "../../assets/images/MetaLogo.png";
 import GetQuote from "../GetQuote/GetQuote";
 
 const Layoffs = ({ screenSize }) => {

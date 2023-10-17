@@ -1,9 +1,8 @@
-import React from 'react'
-import WhatGetSvg from '../../assests/images/WhatGetSvg.svg'
+import WhatGetSvg from '../../assets/images/WhatGetSvg.svg'
 import Card from '../Card/Card'
-import SalaryImg from '../../assests/images/salary.png'
-import RecruitmentAssistanceImg from '../../assests/images/recruitment-assistence.png'
-import PlansImg from '../../assests/images/plans.png'
+import SalaryImg from '../../assets/images/salary.png'
+import RecruitmentAssistanceImg from '../../assets/images/recruitment-assistence.png'
+import PlansImg from '../../assets/images/plans.png'
 
 const WhatGet = ({ screenSize }) => {
   return (
@@ -21,7 +20,7 @@ const WhatGet = ({ screenSize }) => {
                 gapBetweenImageAndCard={screenSize > 1022 ? "35px" : "20px"}
                 gapBetweenTitleAndDescription={screenSize > 1022 ? "16px" : "6px"}
                 // imageHeight={screenSize > 1022 ? "80px" : "61px"}
-                imageWidth={screenSize > 1022 ? "80px" : "56px"}
+                imageWidth={screenSize > 1022 ? "75px" : "56px"}
                 title={"3 month Salary"}
                 description={
                     "Protection on job loss"

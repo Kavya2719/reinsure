@@ -1,4 +1,3 @@
-
 const ClaimCard = ({ role, amount }) => {
   return (
     <div className="flex flex-col px-4 py-2 bg-white items-center justify-center rounded-[4px] shadow-light-black shadow-md lg:px-3">

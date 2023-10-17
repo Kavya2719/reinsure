@@ -1,10 +1,10 @@
-import ReworkLogo from "../../assests/images/ReworkLogo.png";
-import Copyright from "../../assests/images/copyright.png";
-import Mail from '../../assests/images/mail.png'
-import SocialIcons from '../../assests/images/Social Icons.png'
-import SocialIcons1 from '../../assests/images/Social Icons 1.png'
-import SocialIcons2 from '../../assests/images/Social Icons 2.png'
-import SocialIcons3 from '../../assests/images/Social Icons 3.png'
+import ReworkLogo from "../../assets/images/ReworkLogo.png";
+import Copyright from "../../assets/images/copyright.png";
+import Mail from '../../assets/images/mail.png'
+import SocialIcons from '../../assets/images/Social Icons.png'
+import SocialIcons1 from '../../assets/images/Social Icons 1.png'
+import SocialIcons2 from '../../assets/images/Social Icons 2.png'
+import SocialIcons3 from '../../assets/images/Social Icons 3.png'
 import { Tooltip } from "react-tooltip";
 import "./Footer.css";
 
@@ -49,8 +49,9 @@ const Footer = ({ screenSize }) => {
           <div className="quick-links" id="join">Join our mailing list</div>
           <div className="frame-parent5">
             <div className="enter-email-wrapper">
-              <input name="email" type="text" className="enter-email" placeholder="Enter Email" autoComplete="on"/>
+              <input name="email" type="text" className="enter-email text-black" placeholder="Enter Email" autoComplete="on"/>
             </div>
+
             <div className="free-send-mail-icon-2574-thumb-parent">
               <img
                 className="free-send-mail-icon-2574-thumb"

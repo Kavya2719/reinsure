@@ -1,8 +1,8 @@
 import GetQuote from "../GetQuote/GetQuote";
-import SalaryStillOnImg from "../../assests/images/SalaryStillOn.png";
-import Man1Img from "../../assests/images/Man1Img.png";
-import Girl1Img from "../../assests/images/Girl1Img.png";
-import Girl2Img from "../../assests/images/Girl2Img.png";
+import SalaryStillOnImg from "../../assets/images/SalaryStillOn.png";
+import Man1Img from "../../assets/images/Man1Img.png";
+import Girl1Img from "../../assets/images/Girl1Img.png";
+import Girl2Img from "../../assets/images/Girl2Img.png";
 import ClaimCard from "../ClaimCard/ClaimCard";
 import TopBrands from "../TopBrands/TopBrands";
 

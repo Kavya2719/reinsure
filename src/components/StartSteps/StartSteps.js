@@ -1,13 +1,12 @@
-import React from "react";
 import GetQuote from "../GetQuote/GetQuote";
 import Card from "../Card/Card";
-import OneImg from "../../assests/images/one.png";
-import TwoImg from "../../assests/images/two.png";
-import ThreeImg from "../../assests/images/three.png";
-import OneImgSm from "../../assests/images/one-sm.png";
-import TwoImgSm from "../../assests/images/two-sm.png";
-import ThreeImgSm from "../../assests/images/three-sm.png";
-import StartStepsSvg from "../../assests/images/StartStepsSvg.svg";
+import OneImg from "../../assets/images/one.png";
+import TwoImg from "../../assets/images/two.png";
+import ThreeImg from "../../assets/images/three.png";
+import OneImgSm from "../../assets/images/one-sm.png";
+import TwoImgSm from "../../assets/images/two-sm.png";
+import ThreeImgSm from "../../assets/images/three-sm.png";
+import StartStepsSvg from "../../assets/images/StartStepsSvg.svg";
 
 const StartSteps = ({ screenSize }) => {
   return (

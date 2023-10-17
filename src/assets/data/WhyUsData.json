@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Incredibly low pricing",
+        "description": "Starting at just ₹399/year",
+        "image": "/assets/WhyUsImages/LowPriceImg.png"
+    },
+    {
+        "title": "Superquick and easy",
+        "description": "Enroll in 3 simple steps",
+        "image": "/assets/WhyUsImages/QuickImg.png"
+    },
+    {
+        "title": "Hassle-free claims",
+        "description": "With 24x7 customer support/ assistance",
+        "image": "/assets/WhyUsImages/SupportImg.png"
+    }
+]

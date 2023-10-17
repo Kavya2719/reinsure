@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import RightArrowImg from "../../assests/images/rightImg.png";
+import RightArrowImg from "../../assets/images/rightImg.png";
 
 const GetQuote = ({ buttonSize, color, backgroundColor, image }) => {
   const largeButtonStyles = "py-[14px] pl-[20px] pr-[16px] w-[205px] border-[1.33px]  gap-[10px]"

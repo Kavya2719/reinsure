@@ -1,4 +1,3 @@
-import React from "react";
 import GetQuote from "../GetQuote/GetQuote";
 
 const End = ({ screenSize }) => {

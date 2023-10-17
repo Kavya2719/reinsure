@@ -1,9 +1,9 @@
 import { useState, useRef } from "react";
-import ClientTrustUsImg from "../../assests/images/ClientTrustUs.png";
-import RightBlueImg from "../../assests/images/rightBlue.png";
+import ClientTrustUsImg from "../../assets/images/ClientTrustUs.png";
+import RightBlueImg from "../../assets/images/rightBlue.png";
 import GetQuote from "../GetQuote/GetQuote";
 import TestimonialCard from "../TestimonialCard/TestimonialCard";
-import TestimonialData from "../../assests/data/TestimonialsData.json";
+import TestimonialData from "../../assets/data/TestimonialsData.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import 'swiper/css';

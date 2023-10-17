@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Whirlpool",
+        "logo": "/assets/TopBrandsImages/WhirlpoolLogo.png" 
+    },
+    {
+        "name": "Tata",
+        "logo": "/assets/TopBrandsImages/TataLogo.png" 
+    },
+    {
+        "name": "Sony",
+        "logo": "/assets/TopBrandsImages/SonyLogo.png" 
+    },
+    {
+        "name": "Uber",
+        "logo": "/assets/TopBrandsImages/UberLogo.png" 
+    },
+    {
+        "name": "Airtel",
+        "logo": "/assets/TopBrandsImages/AirtelLogo.png" 
+    },
+    {
+        "name": "IBM",
+        "logo": "/assets/TopBrandsImages/IBMLogo.png" 
+    }
+]

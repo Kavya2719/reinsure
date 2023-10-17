@@ -263,6 +263,7 @@
     border: none;
     box-sizing: border-box;
     padding: 7px 0px;
+    padding-right: 16px;
     cursor: auto;
 }
 ::placeholder {

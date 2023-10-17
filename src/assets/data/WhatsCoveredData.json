@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Bankrupty",
+        "description": "When your employer files for bankruptcy and you suffer job loss.",
+        "imageLarge": "/assets/WhatsCoveredImages/bankrupty.png",
+        "imageSmall": "/assets/WhatsCoveredImages/bankruptysm.png"
+    },
+    {
+        "title": "M&A",
+        "description": "When your employer files for bankruptcy and you suffer job loss.",
+        "imageLarge": "/assets/WhatsCoveredImages/ma.png",
+        "imageSmall": "/assets/WhatsCoveredImages/ma-sm.png"
+    },
+    {
+        "title": "Economic Cycles",
+        "description": "When your employer files for bankruptcy and you suffer job loss.",
+        "imageLarge": "/assets/WhatsCoveredImages/Economic Cycles.png",
+        "imageSmall": "/assets/WhatsCoveredImages/Economic Cycles-sm.png"
+    },
+    {
+        "title": "Restructuring",
+        "description": "When your employer files for bankruptcy and you suffer job loss.",
+        "imageLarge": "/assets/WhatsCoveredImages/restructuring.png",
+        "imageSmall": "/assets/WhatsCoveredImages/restructuring-sm.png"
+    },
+    {
+        "title": "Bankrupty",
+        "description": "When your employer files for bankruptcy and you suffer job loss.",
+        "imageLarge": "/assets/WhatsCoveredImages/bankrupty.png",
+        "imageSmall": "/assets/WhatsCoveredImages/bankrupty.png"
+    },
+    {
+        "title": "Termination",
+        "description": "When your employer files for bankruptcy and you suffer job loss.",
+        "imageLarge": "/assets/WhatsCoveredImages/Termination.png",
+        "imageSmall": "/assets/WhatsCoveredImages/Termination-sm.png"
+    }
+]
