@@ -1,4 +1,4 @@
-const FAQPage = () => {
+const FAQPage = ({ screenSize }) => {
   return (
     <div>
       FAQPage

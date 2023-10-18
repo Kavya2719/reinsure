@@ -25,7 +25,7 @@ function App() {
 
         <Route
           path="/about-us"
-          element={<AboutUsPage />}
+          element={<AboutUsPage screenSize={screenSize}/>}
         />
 
         <Route
@@ -35,7 +35,7 @@ function App() {
 
         <Route
           path="/faq"
-          element={<FAQPage />}
+          element={<FAQPage screenSize={screenSize} />}
         />
 
         <Route
