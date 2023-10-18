@@ -1,12 +1,18 @@
-import { Navbar, Footer, Vision } from "../../components"
+import { Navbar, Footer, Vision, BehindTheScenes, Achievements, MeetOurTeam } from "../../components"
 
 const AboutUsPage = ({ screenSize }) => {
   return (
-    <div>
+    <div className="bg-white">
       <Navbar />
       <div className='h-[92px] w-full lg:hidden' />
 
-      <Vision />
+      <div className="flex flex-col gap-[100px]">
+        <Vision />
+        <BehindTheScenes />
+        <MeetOurTeam />
+        <Achievements />
+      </div>
+
       <Footer screenSize={screenSize} />
     </div>
   )

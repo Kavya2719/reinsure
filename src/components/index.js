@@ -15,6 +15,10 @@ import WhatsCovered from './WhatsCovered/WhatsCovered';
 import WhatsNotCovered from './WhatsNotCovered/WhatsNotCovered';
 import WhyUs from './WhyUs/WhyUs';
 import Vision from './Vision/Vision';
+import FAQ from './FAQ/FAQ';
+import MeetOurTeam from './MeetOurTeam/MeetOurTeam';
+import BehindTheScenes from './BehindTheScenes/BehindTheScenes';
+import Achievements from './Achievements/Achievements';
 
 export {
     Card,
@@ -33,5 +37,9 @@ export {
     WhatsCovered,
     WhatsNotCovered,
     WhyUs,
-    Vision
+    Vision,
+    FAQ,
+    MeetOurTeam,
+    Achievements,
+    BehindTheScenes
 }

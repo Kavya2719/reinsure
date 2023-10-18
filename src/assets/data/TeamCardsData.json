@@ -1,0 +1,26 @@
+[
+    {
+        "name": "TeamCard1Img",
+        "role": "Chief Executive Officer",
+        "description": "Chief Executive Lorem ipsum dolor sit amet consectetur. Enim ut odio interdum sit quis consectetur.",
+        "image": "/assets/TeamCardsImages/TeamCard1.png"
+    },
+    {
+        "name": "TeamCard2Img",
+        "role": "Chief Executive Officer",
+        "description": "Chief Executive Lorem ipsum dolor sit amet consectetur. Enim ut odio interdum sit quis consectetur.",
+        "image": "/assets/TeamCardsImages/TeamCard2.png"
+    },
+    {
+        "name": "TeamCard3Img",
+        "role": "Chief Executive Officer",
+        "description": "Chief Executive Lorem ipsum dolor sit amet consectetur. Enim ut odio interdum sit quis consectetur.",
+        "image": "/assets/TeamCardsImages/TeamCard3.png"
+    },
+    {
+        "name": "TeamCard4Img",
+        "role": "Chief Executive Officer",
+        "description": "Chief Executive Lorem ipsum dolor sit amet consectetur. Enim ut odio interdum sit quis consectetur.",
+        "image": "/assets/TeamCardsImages/TeamCard4.png"
+    }
+]
