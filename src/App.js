@@ -1,4 +1,4 @@
-import { HomePage, AboutUsPage, ContactUsPage, FAQPage, GetQuotePage } from './pages';
+import { HomePage, AboutUsPage, ContactUsPage, GetQuotePage } from './pages';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
@@ -31,11 +31,6 @@ function App() {
         <Route
           path="/contact-us"
           element={<ContactUsPage screenSize={screenSize} />}
-        />
-
-        <Route
-          path="/faq"
-          element={<FAQPage screenSize={screenSize} />}
         />
 
         <Route
