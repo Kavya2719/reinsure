@@ -1,5 +1,4 @@
-import GetQuote from "../GetQuote/GetQuote";
-import Card from "../Card/Card";
+import { Card, GetQuote } from "..";
 import OneImg from "../../assets/images/one.png";
 import TwoImg from "../../assets/images/two.png";
 import ThreeImg from "../../assets/images/three.png";

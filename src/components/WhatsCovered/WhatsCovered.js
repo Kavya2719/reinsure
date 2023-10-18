@@ -1,4 +1,4 @@
-import Card from "../Card/Card";
+import { Card } from "..";
 import WhatsCoveredData from '../../assets/data/WhatsCoveredData.json'
 
 const WhatsCovered = ({ screenSize }) => {

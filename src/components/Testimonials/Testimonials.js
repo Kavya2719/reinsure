@@ -1,8 +1,8 @@
 import { useState, useRef } from "react";
+import { GetQuote } from "..";
+import TestimonialCard from "./TestimonialCard/TestimonialCard";
 import ClientTrustUsImg from "../../assets/images/ClientTrustUs.png";
 import RightBlueImg from "../../assets/images/rightBlue.png";
-import GetQuote from "../GetQuote/GetQuote";
-import TestimonialCard from "../TestimonialCard/TestimonialCard";
 import TestimonialData from "../../assets/data/TestimonialsData.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";

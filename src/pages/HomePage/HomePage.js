@@ -1,15 +1,4 @@
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
-import WhatsCovered from '../../components/WhatsCovered/WhatsCovered'
-import WhatsNotCovered from '../../components/WhatsNotCovered/WhatsNotCovered'
-import StartSteps from '../../components/StartSteps/StartSteps'
-import End from '../../components/End/End'
-import WhyUs from '../../components/WhyUs/WhyUs'
-import WhatGet from '../../components/WhatGet/WhatGet'
-import Layoffs from '../../components/Layoffs/Layoffs'
-import FAQs from '../../components/FAQs/FAQs'
-import Testimonials from '../../components/Testimonials/Testimonials'
-import SalaryOn from '../../components/SalaryOn/SalaryOn'
+import { Navbar, Footer, WhatsCovered, WhatsNotCovered, StartSteps, End, WhyUs, WhatGet, Layoffs, FAQs, Testimonials, SalaryOn } from '../../components'
 
 const HomePage = ({ screenSize }) => {
   return (

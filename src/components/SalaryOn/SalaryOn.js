@@ -1,10 +1,9 @@
-import GetQuote from "../GetQuote/GetQuote";
 import SalaryStillOnImg from "../../assets/images/SalaryStillOn.png";
 import Man1Img from "../../assets/images/Man1Img.png";
 import Girl1Img from "../../assets/images/Girl1Img.png";
 import Girl2Img from "../../assets/images/Girl2Img.png";
-import ClaimCard from "../ClaimCard/ClaimCard";
-import TopBrands from "../TopBrands/TopBrands";
+import { GetQuote, ClaimCard } from "..";
+import TopBrands from "./TopBrands/TopBrands";
 
 const SalaryOn = ({ screenSize }) => {
   return (

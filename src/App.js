@@ -1,7 +1,4 @@
-import HomePage from './pages/HomePage/HomePage';
-import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
-import ContactUsPage from './pages/ContactUsPage/ContactUsPage';
-import FAQPage from './pages/FAQPage/FAQPage';
+import { HomePage, AboutUsPage, ContactUsPage, FAQPage, GetQuotePage } from './pages';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
@@ -39,6 +36,11 @@ function App() {
         <Route
           path="/faq"
           element={<FAQPage />}
+        />
+
+        <Route
+          path="/get-quote"
+          element={<GetQuotePage screenSize={screenSize} />}
         />
       </Routes>
     </BrowserRouter>

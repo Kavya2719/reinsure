@@ -1,4 +1,4 @@
-import GetQuote from "../GetQuote/GetQuote";
+import { GetQuote } from "..";
 
 const End = ({ screenSize }) => {
   return (

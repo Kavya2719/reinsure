@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import RightArrowImg from "../../assets/images/rightImg.png";
 
 const GetQuote = ({ buttonSize, color, backgroundColor, image }) => {
@@ -12,13 +13,15 @@ const GetQuote = ({ buttonSize, color, backgroundColor, image }) => {
   }, [])
 
   return (
-    <button
-      className={`text-white bg-blue border-blue flex items-center ${buttonSize === "small"? smallButtonStyles: largeButtonStyles}`}
-      style={{ color, backgroundColor }}
-    >
-      <span className={buttonSize === "small"? "text-[16px]": "text-2xl"}>Get Quote</span>
-      <img src={ArrowImg} alt="->" className={buttonSize === "small"? "w-[22px]": ""}/>
-    </button>
+    <Link to="/get-quote" >
+      <button
+        className={`text-white bg-blue border-blue flex items-center ${buttonSize === "small"? smallButtonStyles: largeButtonStyles}`}
+        style={{ color, backgroundColor }}
+      >
+        <span className={buttonSize === "small"? "text-[16px]": "text-2xl"}>Get Quote</span>
+        <img src={ArrowImg} alt="->" className={buttonSize === "small"? "w-[22px]": ""}/>
+      </button>
+    </Link>
   );
 };
 

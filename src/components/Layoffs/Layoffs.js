@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import LayoffsImg from "../../assets/images/layoffs.png";
 import AmazonLogo from "../../assets/images/AmazonLogo.png";
 import MetaLogo from "../../assets/images/MetaLogo.png";
-import GetQuote from "../GetQuote/GetQuote";
+import { GetQuote } from "..";
 
 const Layoffs = ({ screenSize }) => {
   const [companyLogo, setCompanyLogo] = useState(AmazonLogo);

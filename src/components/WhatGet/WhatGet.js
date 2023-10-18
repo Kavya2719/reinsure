@@ -1,5 +1,5 @@
+import { Card } from '..'
 import WhatGetSvg from '../../assets/images/WhatGetSvg.svg'
-import Card from '../Card/Card'
 import SalaryImg from '../../assets/images/salary.png'
 import RecruitmentAssistanceImg from '../../assets/images/recruitment-assistence.png'
 import PlansImg from '../../assets/images/plans.png'

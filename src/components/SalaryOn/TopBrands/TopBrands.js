@@ -1,4 +1,4 @@
-import TopBrandsData from "../../assets/data/TopBrandsData.json";
+import TopBrandsData from "../../../assets/data/TopBrandsData.json";
 
 const TopBrands = () => {
   return (

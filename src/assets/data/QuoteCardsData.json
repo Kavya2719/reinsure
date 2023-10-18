@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Man2Img",
+        "role": "Product Designer",
+        "amount": "2,00,000",
+        "image": "/assets/QuoteCardsImages/Man2Img.png"
+    },
+    {
+        "name": "Girl1Img",
+        "role": "Software Developer",
+        "amount": "9,00,000",
+        "image": "/assets/QuoteCardsImages/Girl1Img.png"
+    },
+    {
+        "name": "Girl3Img",
+        "role": "Software Developer",
+        "amount": "4,50,000",
+        "image": "/assets/QuoteCardsImages/Girl3Img.png"
+    },
+    {
+        "name": "Man2Img",
+        "role": "Product Designer",
+        "amount": "2,00,000",
+        "image": "/assets/QuoteCardsImages/Man2Img.png"
+    },
+    {
+        "name": "Girl1Img",
+        "role": "Software Developer",
+        "amount": "9,00,000",
+        "image": "/assets/QuoteCardsImages/Girl1Img.png"
+    },
+    {
+        "name": "Girl3Img",
+        "role": "Software Developer",
+        "amount": "4,50,000",
+        "image": "/assets/QuoteCardsImages/Girl3Img.png"
+    },
+    {
+        "name": "Man2Img",
+        "role": "Product Designer",
+        "amount": "2,00,000",
+        "image": "/assets/QuoteCardsImages/Man2Img.png"
+    },
+    {
+        "name": "Girl1Img",
+        "role": "Software Developer",
+        "amount": "9,00,000",
+        "image": "/assets/QuoteCardsImages/Girl1Img.png"
+    },
+    {
+        "name": "Girl3Img",
+        "role": "Software Developer",
+        "amount": "4,50,000",
+        "image": "/assets/QuoteCardsImages/Girl3Img.png"
+    }
+]

@@ -1,7 +1,7 @@
-import GetQuote from "../GetQuote/GetQuote"
+import { GetQuote } from ".."
 import FAQsTitleImg from "../../assets/images/FAQsTitle.png"
 import FAQsData from "../../assets/data/FAQsData.json"
-import FAQ from "../FAQ/FAQ"
+import FAQ from "./FAQ/FAQ"
 
 const FAQs = ({ screenSize }) => {
   return (

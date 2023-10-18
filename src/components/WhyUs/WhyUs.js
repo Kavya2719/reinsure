@@ -1,5 +1,5 @@
+import { Card } from "..";
 import WhyUsSvg from "../../assets/images/whyus.svg";
-import Card from "../Card/Card";
 import WhyUsData from "../../assets/data/WhyUsData.json";
 
 const WhyUs = ({ screenSize }) => {

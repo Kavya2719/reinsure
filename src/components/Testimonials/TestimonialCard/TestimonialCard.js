@@ -1,4 +1,4 @@
-import StarImg from '../../assets/images/Star.png'
+import StarImg from '../../../assets/images/Star.png'
 
 const TestimonialsCard = ({ name, role, description, image, rating }) => {
   const stars = [];

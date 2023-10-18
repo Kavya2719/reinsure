@@ -1,6 +1,6 @@
 import ReinsureLogo from '../../assets/images/Reinsure.png'
 import { Link } from 'react-router-dom'
-import GetQuote from '../GetQuote/GetQuote'
+import { GetQuote } from '..'
 
 const Navbar = () => {
   return (
