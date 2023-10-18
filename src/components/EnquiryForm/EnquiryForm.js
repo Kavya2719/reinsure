@@ -9,8 +9,8 @@ import QuoteCardsData from "../../assets/data/QuoteCardsData.json";
 const EnquiryForm = ({ screenSize }) => {
   return (
     <div className="bg-light-white flex flex-row flex-wrap py-10 justify-between items-center w-[80%] mx-auto xl:w-full xl:justify-center lg:gap-[30px] lg:flex-col">
-      <div className="flex flex-col gap-[40px] justify-center items-center w-[634px] xl:w-[550px] lg:w-auto">
-        <span className="text-dark-blue font-scandia text-[32px] font-medium leading-[110%] tracking-[-0.96px]">
+      <div className="flex flex-col gap-[40px] justify-center items-center w-[634px] xl:w-[550px] lg:w-auto sm:gap-[50px]">
+        <span className="text-dark-blue font-scandia text-[32px] font-medium leading-[110%] tracking-[-0.96px] sm:w-[95%]">
           Get Your Instant quote Now!
         </span>
 
