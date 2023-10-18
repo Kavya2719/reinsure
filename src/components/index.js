@@ -14,6 +14,7 @@ import WhatGet from './WhatGet/WhatGet';
 import WhatsCovered from './WhatsCovered/WhatsCovered';
 import WhatsNotCovered from './WhatsNotCovered/WhatsNotCovered';
 import WhyUs from './WhyUs/WhyUs';
+import Vision from './Vision/Vision';
 
 export {
     Card,
@@ -31,5 +32,6 @@ export {
     WhatGet,
     WhatsCovered,
     WhatsNotCovered,
-    WhyUs
+    WhyUs,
+    Vision
 }

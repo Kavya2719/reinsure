@@ -53,7 +53,7 @@ const Footer = ({ screenSize }) => {
               <input name="email" type="text" className="enter-email text-black" placeholder="Enter Email" autoComplete="on"/>
             </div>
 
-            <div className="free-send-mail-icon-2574-thumb-parent">
+            <div className="free-send-mail-icon-2574-thumb-parent bg-blue text-white">
               <img
                 className="free-send-mail-icon-2574-thumb"
                 alt=""

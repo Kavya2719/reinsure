@@ -102,6 +102,7 @@
     width: 26px;
     height: 20px;
     object-fit: cover;
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(182deg) brightness(110%) contrast(102%);
 }
 .free-send-mail-icon-2574-thumb-parent,
 .subscribe {
@@ -118,7 +119,7 @@
 }
 .free-send-mail-icon-2574-thumb-parent {
     border-radius: 0 4px 4px 0;
-    background-color: #EBDA42;
+    /* background-color: #EBDA42; */
     width: 142px;
     height: 39px;
     flex-direction: row;
