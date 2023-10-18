@@ -17,35 +17,35 @@ const EnquiryForm = ({ screenSize }) => {
         <div className="flex flex-col gap-[20px]">
           <input
             type="text"
-            className="p-4 placeholder:text-light-gray-2 leading-[120%] indent-8 !w-[464px] md:!w-[355px]"
+            className="p-4 placeholder:text-light-gray-2 leading-[120%] indent-8 shadow-md shadow-light-gray-2 !w-[464px] md:!max-w-[355px] md:!min-w-[280px] md:shadow-none"
             placeholder="Full Name"
             style={{ backgroundImage: `url(${FullNameImg})`, backgroundRepeat: "no-repeat", backgroundPosition: "left 20px center" }}
           />
 
           <input
             type="text"
-            className="p-4 placeholder:text-light-gray-2 leading-[120%] indent-8 !w-[464px] md:!w-[355px]"
+            className="p-4 placeholder:text-light-gray-2 leading-[120%] indent-8 shadow-md shadow-light-gray-2 !w-[464px] md:!max-w-[355px] md:!min-w-[280px] md:shadow-none"
             placeholder="Email"
             style={{ backgroundImage: `url(${EmailImg})`, backgroundRepeat: "no-repeat", backgroundPosition: "left 20px center" }}
           />
 
           <input
             type="text"
-            className="p-4 placeholder:text-light-gray-2 leading-[120%] indent-8 !w-[464px] md:!w-[355px]"
+            className="p-4 placeholder:text-light-gray-2 leading-[120%] indent-8 shadow-md shadow-light-gray-2 !w-[464px] md:!max-w-[355px] md:!min-w-[280px] md:shadow-none"
             placeholder="Phone Number"
             style={{ backgroundImage: `url(${PhoneImg})`, backgroundRepeat: "no-repeat", backgroundPosition: "left 20px center" }}
           />
 
           <input
             type="text"
-            className="p-4 placeholder:text-light-gray-2 leading-[120%] indent-8 !w-[464px] md:!w-[355px]"
+            className="p-4 placeholder:text-light-gray-2 leading-[120%] indent-8 shadow-md shadow-light-gray-2 !w-[464px] md:!max-w-[355px] md:!min-w-[280px] md:shadow-none"
             placeholder="Current Company"
             style={{ backgroundImage: `url(${CurrentCompanyImg})`, backgroundRepeat: "no-repeat", backgroundPosition: "left 20px center" }}
           />
 
           <textarea
             type="text"
-            className="p-4 placeholder:text-light-gray-2 leading-[120%] !w-[464px] md:!w-[355px]"
+            className="p-4 placeholder:text-light-gray-2 leading-[120%] shadow-md shadow-light-gray-2 !w-[464px] md:!max-w-[355px] md:!min-w-[280px] md:shadow-none"
             style={{ height: "180px", resize: "none" }}
             placeholder="Message"
 
