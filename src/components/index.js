@@ -19,6 +19,8 @@ import FAQ from './FAQ/FAQ';
 import MeetOurTeam from './MeetOurTeam/MeetOurTeam';
 import BehindTheScenes from './BehindTheScenes/BehindTheScenes';
 import Achievements from './Achievements/Achievements';
+import PlanNavbar from './PlanNavbar/PlanNavbar';
+import RightPlan from './RightPlan/RightPlan';
 
 export {
     Card,
@@ -41,5 +43,7 @@ export {
     FAQ,
     MeetOurTeam,
     Achievements,
-    BehindTheScenes
+    BehindTheScenes,
+    PlanNavbar,
+    RightPlan
 }

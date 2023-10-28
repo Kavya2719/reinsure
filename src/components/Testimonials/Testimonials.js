@@ -82,6 +82,7 @@ const Testimonials = ({ screenSize }) => {
       </div>
 
       <GetQuote
+        LinkTo="/get-quote"
         buttonSize={screenSize > 1022 ? "large" : "small"}
         color={"blue"}
         backgroundColor={"white"}

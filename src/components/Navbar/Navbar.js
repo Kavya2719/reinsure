@@ -28,7 +28,7 @@ const Navbar = ({ handleScrollToFAQ }) => {
           </button>
         </div>
 
-        <GetQuote buttonSize="small"/>
+        <GetQuote LinkTo="/get-quote" buttonSize="small"/>
       </div>
     </div>
   )

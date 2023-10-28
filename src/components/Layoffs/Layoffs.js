@@ -84,7 +84,7 @@ const Layoffs = ({ screenSize }) => {
           </div>
 
           <div className="sm:hidden">
-            <GetQuote buttonSize={screenSize > 1022 ? "large" : "small"} />
+            <GetQuote LinkTo="/get-quote" buttonSize={screenSize > 1022 ? "large" : "small"} />
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ const Layoffs = ({ screenSize }) => {
           </div>
 
           <div className="mx-auto">
-            <GetQuote buttonSize="small" />
+            <GetQuote LinkTo="/get-quote" buttonSize="small" />
           </div>
       </div>
     </div>

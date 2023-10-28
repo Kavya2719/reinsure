@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import RightArrowImg from "../../assets/images/rightImg.png";
 
-const GetQuote = ({ buttonSize, color, backgroundColor, image }) => {
+const GetQuote = ({ buttonSize, color, backgroundColor, image, LinkTo }) => {
   const largeButtonStyles = "py-[14px] pl-[20px] pr-[16px] w-[205px] border-[1.33px]  gap-[10px]"
   const smallButtonStyles = "py-[9.33px] pl-[13.33px] pr-[10.67px] w-[136px] border-[1.33px] gap-1"
 
@@ -13,7 +13,7 @@ const GetQuote = ({ buttonSize, color, backgroundColor, image }) => {
   }, [])
 
   return (
-    <Link to="/get-quote" >
+    <Link to={LinkTo} >
       <button
         className={`text-white bg-blue border-blue flex items-center ${buttonSize === "small"? smallButtonStyles: largeButtonStyles}`}
         style={{ color, backgroundColor }}

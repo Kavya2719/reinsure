@@ -9,15 +9,15 @@ const FAQs = ({ screenSize, FAQsRef }) => {
 
         <div className="flex flex-col gap-2 w-full items-center">
             {
-                FAQsData.map(({question, answer}, index) => {
+                FAQsData.map((data, index) => {
                     return(
-                        <FAQ key={index} question={question} answer={answer} index={index}/>
+                        <FAQ key={index} {...data} />
                     )
                 })
             }
         </div>
 
-        <GetQuote buttonSize={screenSize > 1022? "large": "small"}/>
+        <GetQuote LinkTo="/get-quote" buttonSize={screenSize > 1022? "large": "small"}/>
     </div>
   )
 }

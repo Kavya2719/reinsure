@@ -33,10 +33,11 @@ const SalaryOn = ({ screenSize }) => {
             <div className="flex flex-row lg:items-center lg:justify-center">
               <input
                 className="bg-white w-[295px] border-[0.8px] border-light-gray-2 px-6 py-[10px] text-xl placeholder:text-xl placeholder:font-light placeholder:text-light-gray-2 flex items-center lg:text-base lg:placeholder:text-base lg:px-3 sm:w-[225px]"
+                type="text"
                 placeholder="Enter your monthy salary"
               />
 
-              <GetQuote buttonSize={screenSize > 1022 ? "large" : "small"} />
+              <GetQuote LinkTo="/get-quote" buttonSize={screenSize > 1022 ? "large" : "small"} />
             </div>
           </div>
 

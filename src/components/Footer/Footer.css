@@ -264,6 +264,7 @@
     border: none;
     box-sizing: border-box;
     padding: 7px 0px;
+    padding-left: 20px;
     padding-right: 16px;
     cursor: auto;
 }
@@ -272,11 +273,6 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-}
-input[type=text] {
-    width: 100%;
-    padding-left: 20px;
-    box-sizing: border-box;
 }
 .mobile-upper-footer {
     padding-top: 40px;

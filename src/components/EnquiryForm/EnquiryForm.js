@@ -52,7 +52,7 @@ const EnquiryForm = ({ screenSize }) => {
           />
         </div>
 
-        <GetQuote buttonSize={screenSize > 1022 ? "large" : "small"} />
+        <GetQuote LinkTo="/get-quote-1" buttonSize={screenSize > 1022 ? "large" : "small"} />
       </div>
 
       <Scrollbar style={{ height: `${screenSize > 1022? 700: 280}px`, width: `${screenSize > 1022? "380px": "95%"}`}}>

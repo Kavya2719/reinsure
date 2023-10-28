@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&family=Unbounded:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&family=Reem+Kufi&family=Unbounded:wght@200;300;400;500;600&display=swap');
 @font-face {
     font-family: Scandia-Medium;
     src: url('/src/assets/fonts/Scandia-Medium.ttf');
@@ -26,10 +26,7 @@ button {
     cursor: pointer;
     background-color: white;
 }
-input[type=text] {
-    font-size: 16px;
-}
-input[type=text]:focus {
+input:focus {
     outline: none;
 }
 

@@ -63,7 +63,7 @@ const StartSteps = ({ screenSize }) => {
           />
         </div>
 
-        <GetQuote buttonSize={screenSize > 1022? "large": "small"}/>
+        <GetQuote LinkTo="/get-quote" buttonSize={screenSize > 1022? "large": "small"}/>
       </div>
     </div>
   );
