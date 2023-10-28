@@ -3,7 +3,7 @@ import RightPlanPng from "../../../assets/images/RightPlanPng.png";
 const RightPlanLeft = ({ screenSize }) => {
   return (
     <div
-      className="pt-[60px] pb-10 px-[50px] flex flex-col justify-center items-center gap-20 rounded-[25px] xl:p-0 xl:pt-2"
+      className="pt-[60px] pb-10 px-[50px] flex flex-col justify-center items-center gap-20 rounded-[25px] xl:p-0 xl:pt-2 md:pt-0"
       style={{
         background:
           `${screenSize > 1279? "linear-gradient(232deg, rgba(205, 220, 255, 0.50) 30.63%, rgba(211, 225, 255, 0.00) 79.5%)": ""}`,

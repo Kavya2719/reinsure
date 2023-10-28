@@ -23,7 +23,7 @@ const PlanNavbar = () => {
         Reinsure
       </Link>
 
-      <div className="w-[150px] h-1 lg:w-[100px]" />
+      <div className="w-[150px] h-1 lg:w-[80px]" />
     </div>
   );
 };
