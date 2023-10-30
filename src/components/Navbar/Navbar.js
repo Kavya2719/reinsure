@@ -19,7 +19,7 @@ const Navbar = ({ handleScrollToFAQ }) => {
             FAQs
           </button>
 
-          <Link to='/contact-us' className='py-[9.33px] w-[92px]'>
+          <Link to='/' className='py-[9.33px] w-[92px]'>
             Contact Us
           </Link>
 

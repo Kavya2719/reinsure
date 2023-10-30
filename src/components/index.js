@@ -21,6 +21,8 @@ import BehindTheScenes from './BehindTheScenes/BehindTheScenes';
 import Achievements from './Achievements/Achievements';
 import PlanNavbar from './PlanNavbar/PlanNavbar';
 import RightPlan from './RightPlan/RightPlan';
+import PersonalisedPlan from './PersonalisedPlan/PersonalisedPlan';
+import ProtectionCard from './ProtectionCard/ProtectionCard';
 
 export {
     Card,
@@ -45,5 +47,7 @@ export {
     Achievements,
     BehindTheScenes,
     PlanNavbar,
-    RightPlan
+    RightPlan,
+    PersonalisedPlan,
+    ProtectionCard
 }

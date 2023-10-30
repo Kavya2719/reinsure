@@ -42,6 +42,21 @@ function App() {
           path="/get-quote-1"
           element={<RightPlanPage screenSize={screenSize} />}
         />
+
+        <Route
+          path="/get-quote-1"
+          element={<RightPlanPage screenSize={screenSize} />}
+        />
+
+        <Route
+          path="/get-quote-2"
+          element={<PersonalisedPlanPage />}
+        />
+
+        <Route
+          path="/get-quote-3"
+          element={<ProtectionPlanPage />}
+        />
       </Routes>
     </BrowserRouter>
   );

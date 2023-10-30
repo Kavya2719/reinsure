@@ -1,0 +1,116 @@
+[
+    {
+        "title": "Basic",
+        "salary": "1,50,000",
+        "price": "400",
+        "featuresData": [
+            {
+                "FeatureTitle": "Salary payment",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Premium portal subscription",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Interview Preparation",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Profile building",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Dedicated placement expert",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Exclusive hiring network",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Interview Preparation",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": false
+            },
+            {
+                "FeatureTitle": "Profile building",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": false
+            },
+            {
+                "FeatureTitle": "Dedicated placement expert",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": false
+            },
+            {
+                "FeatureTitle": "Exclusive hiring network",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": false
+            }
+        ]
+    },
+    {
+        "title": "Advanced",
+        "salary": "2,00,000",
+        "price": "542",
+        "featuresData": [
+            {
+                "FeatureTitle": "Salary payment",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Premium portal subscription",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Interview Preparation",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Profile building",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Dedicated placement expert",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Exclusive hiring network",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": true
+            },
+            {
+                "FeatureTitle": "Interview Preparation",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": false
+            },
+            {
+                "FeatureTitle": "Profile building",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": false
+            },
+            {
+                "FeatureTitle": "Dedicated placement expert",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": false
+            },
+            {
+                "FeatureTitle": "Exclusive hiring network",
+                "FeatureDescription": "Build a strong professional profile and resume to impress potential employers throughout the benefit period",
+                "isIncluded": false
+            }
+        ]
+    }
+]

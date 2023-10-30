@@ -1,5 +1,6 @@
 import InfoImg from '../../../assets/images/info-light-blue.png'
 import RupeePlaceholder from '../../../assets/images/rupee-placeholder.png'
+import { Link } from 'react-router-dom'
 
 const RightPlanRight = () => {
   return (
@@ -46,9 +47,11 @@ const RightPlanRight = () => {
             </div>
         </div>
 
-       <button className="mt-[120px] bg-[#686BFF] rounded-[50px] py-6 px-[150px] text-white text-2xl font-medium leading-[116%] lg:px-[120px] xl:mt-20">
-            Continue
-       </button>
+        <Link to="/get-quote-2">
+            <button className="mt-[120px] bg-[#686BFF] rounded-[50px] py-6 px-[150px] text-white text-2xl font-medium leading-[116%] lg:px-[120px] xl:mt-20">
+                Continue
+            </button>
+       </Link>
     </div>
   )
 }
